@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    #container {
+        display: flex;
+        height: 240px;
+        width: 500px;
+        border: 1px #ccc solid;
+    }
+
+    #container div {
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    #div1 {
+    flex: 1;
+        height:130px;
+        background-color: aqua;
+        text-align: center;
+
+    }
+
+    #div2 {
+        flex: 1;
+        height:130px;
+        margin-top: 20px;
+        background-color: green ;
+        text-align: center;
+    }
+
+    #div2 p {
+        margin-top: 0px;
+    }
+
+    #div3 {
+        flex: 1;
+        height:130px;
+        margin-top: 60px;
+        background-color: yellow;
+    }
+
+    #div3 p {
+        margin-top: 0px;
+        padding-left: 48px;
+    }
+
+    #div4 {
+        flex: 1;
+        height:130px;
+        background-color: red;
+    }
+
+    #div4 p {
+        margin-top: 0;
+        padding-left: 0px;
+    }
+
+</style>
+<body>
+    <div id="container">
+      <div id="div1">
+          <p> Blokje 1</p>
+      </div>
+      <div id="div2">
+          <p> Blokje 2</p>
+      </div>
+      <div id="div3">
+          <p> Blokje 3</p>
+      </div>
+      <div id="div4">
+          <p> Blokje 4</p>
+      </div>
+    </div>
+<script src="blokjes.js"></script>
+</body>
+</html>
