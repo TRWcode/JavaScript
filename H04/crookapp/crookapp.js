@@ -1,4 +1,4 @@
-var plaatjes = [1,2,3]
+..var plaatjes = [1,2,3]
 var teller = 0;
 
 //ogen
